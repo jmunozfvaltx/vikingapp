@@ -1,0 +1,68 @@
+body {
+    background: #202020;
+    color: whitesmoke;
+}
+
+.navbar {
+    background: white;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(86, 228, 197);
+    width: 150px;
+    height: 40px;
+    border-radius: 0.4rem;
+}
+
+.enlaces:hover {
+    background: rgb(202, 235, 228);
+    cursor: pointer;
+}
+
+.enlaces > a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    background: crimson;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.card {
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 2px;
+    color: black;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.input {
+    background: rgba(39, 175, 89, 0.646);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: block;
+}
